@@ -1,0 +1,119 @@
+body {
+  height: 90vh;
+  background-image: linear-gradient(
+    to right,
+    #3e2bce 0%,
+    #2dd3aa 100%
+  ) ;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 400;
+  color: white;
+}
+.content{
+    text-align: center;
+}
+#demo {
+    
+    color:white !important;
+    text-shadow: 1px 1px 5px rgb(155, 154, 154);
+    font-size: 40px;
+  }
+.logo{
+    width: 20%;
+    height: 200px;
+    object-fit: cover;
+}
+.content-head{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.content p{
+    font-size: 13px;
+    padding:10px 0;
+}
+.email {
+    background-color: white !important;
+    color: #999;
+    border: none;
+    width: 20%;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 0 8px 6px -6px#0000005e;
+  }
+  
+  .email:focus {
+    outline: none;
+    color: black;
+  }
+  .email::placeholder {
+    color: #999;
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .subscribe {
+    background-color: #3e2bce;
+    color: white;
+    height: 41px;
+    border: none;
+    width: 10%;
+    font-size: 12px;
+    padding: 0 15px;
+    border-radius: 3px;
+    box-shadow: 0 8px 6px -6px#0000005e;
+
+  }
+  
+
+  @media only screen and (max-device-width: 420px) {
+  
+    
+      .logo{
+          width: 60%;
+          height: 300px;
+      }
+      #demo {
+    
+      
+        font-size: 60px;
+      }
+      .content-head{
+          padding-top: 100px;
+          font-size: 60px;
+      }
+      .content p{
+          font-size: 20px;
+          padding:30px 0;
+      }
+      .email {
+          background-color: white !important;
+          color: #999;
+          border: none;
+          width: 40%;
+          height: 70px;
+          border-radius: 3px;
+        }
+        
+        .email:focus {
+          outline: none;
+          color: black;
+        }
+        .email::placeholder {
+          color: #999;
+          font-size: 20px;
+          padding-left: 15px;
+        }
+        .subscribe {
+          background-color: #3e2bce;
+          color: white;
+          height: 71px;
+          border: none;
+          width: 20%;
+          font-size: 18px;
+          padding: 0 15px;
+          border-radius: 3px;
+          box-shadow: 0 8px 6px -6px#0000005e;
+      
+        }
+  }
+  
+ 
