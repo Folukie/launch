@@ -173,32 +173,32 @@ footer{
     font-size: 65px;
   }
   .content-head {
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 40px !important;
   }
   .content p {
-    font-size: 20px !important;
-    padding: 25px 0;
+    font-size: 16px !important;
+    padding: 20px 0;
   }
   .email {
-    width: 40% !important;
-    height: 50px !important;
+    width: 60% !important;
+    height: 40px !important;
     border-radius: 3px;
   }
 
   .email::placeholder {
     color: #999;
-    font-size: 20px !important;
-    padding-left: 15px;
+    font-size: 18px !important;
+    padding-left: 4px;
   }
   .subscribe {
     background-color: #3e2bce !important;
     color: white;
-    height: 51px !important;
+    height: 41px !important;
     border: none;
-    width: 10% !important;
-    font-size: 18px !important;
-    padding: 0 15px !important;
+    width: 30% !important;
+    font-size: 16px !important;
+    padding: 0 2px !important;
     border-radius: 3px !important;
     box-shadow: 0 8px 6px -6px#0000005e;
   }
