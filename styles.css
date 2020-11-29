@@ -167,21 +167,21 @@ footer{
   }
   .logo {
     width: 65% !important;
-    height: 200px;
+    height: 100px;
   }
   #demo {
-    font-size: 60px;
+    font-size: 65px;
   }
   .content-head {
-    padding-top: 100px;
+    padding-top: 50px;
     font-size: 40px !important;
   }
   .content p {
-    font-size: 22px !important;
-    padding: 30px 0;
+    font-size: 20px !important;
+    padding: 25px 0;
   }
   .email {
-    width: 30% !important;
+    width: 40% !important;
     height: 50px !important;
     border-radius: 3px;
   }
