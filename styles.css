@@ -64,56 +64,95 @@ body {
   }
   
 
-  @media only screen and (max-device-width: 420px) {
+
+  @media only screen and (max-device-width: 540px) {
   
     
-      .logo{
-          width: 60%;
-          height: 300px;
-      }
-      #demo {
-    
-      
-        font-size: 60px;
-      }
-      .content-head{
-          padding-top: 100px;
-          font-size: 60px;
-      }
-      .content p{
-          font-size: 20px;
-          padding:30px 0;
-      }
-      .email {
-          background-color: white !important;
-          color: #999;
-          border: none;
-          width: 40%;
-          height: 70px;
-          border-radius: 3px;
-        }
+    #demo {
         
-        .email:focus {
-          outline: none;
-          color: black;
-        }
-        .email::placeholder {
-          color: #999;
-          font-size: 20px;
-          padding-left: 15px;
-        }
-        .subscribe {
-          background-color: #3e2bce;
-          color: white;
-          height: 71px;
-          border: none;
-          width: 20%;
-          font-size: 18px;
-          padding: 0 15px;
-          border-radius: 3px;
-          box-shadow: 0 8px 6px -6px#0000005e;
+        color:white !important;
+        text-shadow: 1px 1px 5px rgb(155, 154, 154);
+        font-size: 42px;
+      }
+    .logo{
+        width: 60%;
+        height: 400px;
+    }
+    .content-head{
+        text-transform: capitalize;
+        font-size: 45px;
+    }
+    .content p{
+        font-size: 18px;
       
-        }
+    }
+    .email {
+        width: 30%;
+        height: 60px;
+      }
+      
+     
+      .email::placeholder {
+        color: #999;
+        font-size: 22px;
+        padding-left: 15px;
+      }
+      .subscribe {
+      
+        height: 61px;
+        border: none;
+        width: 15%;
+        font-size: 20px;
+        padding: 0 15px;
+       
+    
+      }
   }
+  
+  @media only screen and (max-device-width: 425px) {
+  
+    
+    .logo{
+        width: 65%;
+        height: 350px;
+    }
+    #demo {
+  
+    
+      font-size: 60px;
+    }
+    .content-head{
+        padding-top: 100px;
+        font-size: 65px;
+    }
+    .content p{
+        font-size: 22px;
+        padding:30px 0;
+    }
+    .email {
+        width: 50%;
+        height: 70px;
+        border-radius: 3px;
+      }
+      
+  
+      .email::placeholder {
+        color: #999;
+        font-size: 22px;
+        padding-left: 15px;
+      }
+      .subscribe {
+        background-color: #3e2bce;
+        color: white;
+        height: 71px;
+        border: none;
+        width: 20%;
+        font-size: 20px;
+        padding: 0 15px;
+        border-radius: 3px;
+        box-shadow: 0 8px 6px -6px#0000005e;
+    
+      }
+}
   
  
